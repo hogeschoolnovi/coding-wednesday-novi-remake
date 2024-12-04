@@ -1,14 +1,10 @@
 import React from 'react';
 
-const List = () => {
+const List = ({title, childreng}  ) => {
     return (
         <div>
-            <p> Titel </p>
-            <li> 1</li>
-            <li> 2</li>
-            <li> 3</li>
-            <li> 4</li>
-            <li> 5</li>
+            <p> {title} </p>
+            {children}
         </div>
     );
 };
