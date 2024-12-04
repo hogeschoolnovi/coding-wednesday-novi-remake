@@ -2,6 +2,7 @@ import './App.css'
 import SectionContentWrapper from './components/sectionContentWrapper/SectionContentWrapper.jsx';
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
+import Footer from "./components/footer/Footer.jsx";
 
 function App() {
 
@@ -55,7 +56,7 @@ function App() {
 				</section>
 			</main>
 			<footer className="footer-section">
-
+			<Footer/>
 			</footer>
 		</>
 	)
