@@ -23,7 +23,6 @@ function App() {
                         />
                         <ItemLabel
                             title='6mnd'
-
                             text='gem. vrijstelling'
                         />
                         <ItemLabel

@@ -1,26 +1,17 @@
 .article{
     display:flex;
     flex-direction: column;
-
 }
 
 .h2 {
     text-align: center;
     font-size: 4rem;
-    font-family: "Moret", Arial, sans-serif;
     display: flex;
     justify-content: center;
-
-
-
 }
 
 .p {
     text-align: center;
-    font-size: 14px;
-    font-family: "Poppins", Helvetica, Arial, sans-serif;
+    font-size: 1rem;
     display: flex;
-
-
-
 }
