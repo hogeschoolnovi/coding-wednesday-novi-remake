@@ -1,5 +1,6 @@
 import './Navbar.css';
 import novilogo from '../../assets/novi-logo-color-transparent.png';
+import Button from "../button/Button.jsx";
 
 function Navbar() {
 	return (
@@ -16,7 +17,7 @@ function Navbar() {
 			</ul>
 			<div className="navbar-controls">
 				<p>Student login</p>
-				<button type="button">Inschrijven</button>
+				<Button name="button2" label="Inschrijven" onClick={()=> console.log("Je hebt geklikt!")} arrow={false} />
 			</div>
 		</nav>
 	);
