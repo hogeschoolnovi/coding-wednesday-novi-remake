@@ -21,7 +21,10 @@
 .testimonial-section {
     background-color: var(--color-background-light);
     display: flex;
-    padding: 1rem
+    padding: 1rem;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 1rem;
 }
 
 /* --------------- Talent Pool ------------------------- */
