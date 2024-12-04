@@ -1,0 +1,21 @@
+.infoCard {
+    flex: 0 1 calc(50% - 30px);
+    background-color: var(--color-background-light);
+    border-radius: 20px;
+    border: none;
+    padding: 30px;
+}
+
+.info-card-title {
+    font-size: 35px;
+    font-weight: 400;
+}
+
+.info-card-content {
+    /*margin: 0 5px;*/
+    line-height: 2.5;
+}
+
+.info-card-experience-tag {
+
+}

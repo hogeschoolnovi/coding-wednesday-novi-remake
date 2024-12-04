@@ -12,6 +12,13 @@
     margin: 0 auto;
 }
 
+.info-card-wrapper {
+    display: flex;
+    /*justify-content: space-evenly;*/
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
 /* --------------- Courses ------------------------- */
 .courses-section {
     background-color: var(--color-secondary);
