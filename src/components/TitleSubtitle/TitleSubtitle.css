@@ -1,0 +1,33 @@
+.section-title-black {
+    text-align: center;
+    display: block;
+    color: var(--color-text);
+    margin: 0 0 20px 0;
+    font-weight: bold;
+
+}
+
+h2 {
+    font-size: 72px;
+}
+
+
+.section-title-white {
+    text-align: center;
+    display: block;
+    color: var(--color-tertiary);
+    margin: 0 0 20px 0;
+
+}
+
+
+.section-subtitle {
+    text-align: center;
+    color: var(--color-text);
+}
+
+
+/*.section-subtitle {*/
+/*    text-align: center;*/
+/*    color: var(--color-text);*/
+/*}*/
