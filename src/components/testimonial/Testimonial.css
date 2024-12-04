@@ -20,18 +20,19 @@
   .image-container {
     position: relative;
 
-    /*&::before {*/
-    /*  content: '';*/
-    /*  background: #FF5555;*/
-    /*  border-radius: 20px;*/
-    /*  position: absolute;*/
-    /*  width: 45px;*/
-    /*  height: 45px;*/
-    /*  !* Centering the pseudo-element *!*/
-    /*  top: 50%;*/
-    /*  left: 50%;*/
-    /*  transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);*/
-    /*}*/
+    &::before {
+      content: '';
+      background: #FF5555;
+      border-radius: 20px;
+      position: absolute;
+      width: 45px;
+      height: 45px;
+      /* Centering the pseudo-element */
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
+      z-index: 3;
+    }
 
     /*&::after {*/
     /*  content: '';*/
@@ -41,7 +42,9 @@
     /*  border-width: 10px 10px 10px 15px;*/
     /*  border-style: solid;*/
     /*  border-color: transparent transparent transparent white;*/
-    /*  z-index: 1;*/
+    /*  left: 50%;*/
+    /*  transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);*/
+    /*  z-index: 4;*/
     /*}*/
   }
 
