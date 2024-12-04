@@ -1,16 +1,18 @@
 import React from 'react';
-
-const ResourceLinks = ({icon, icon_alt, target, url, icon_only, name}) => {
+import "./ResourceLinks.css"
+const ResourceLinks = ({icon, icon_alt, target, url, icon_only, name, classname}) => {
     return (
         <div>
+            <a href={url} target={target}>
             {icon_only && icon &&
-                <img src={icon} alt={icon_alt}/>
+                <img className={classname} src={icon} alt={icon_alt}/>
             }
             {!icon_only &&
-                <a href={url} target={target}>{name}</a>
-            }
+                name}
+            </a>
+
         </div>
     );
-};
+}
 
 export default ResourceLinks;
