@@ -1,6 +1,6 @@
 import React from 'react';
 
-const List = ({title, childreng}  ) => {
+const List = ({title, children}  ) => {
     return (
         <div>
             <p> {title} </p>
