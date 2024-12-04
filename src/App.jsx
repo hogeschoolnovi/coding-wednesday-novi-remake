@@ -1,7 +1,8 @@
 import './App.css'
 import SectionContentWrapper from './components/sectionContentWrapper/SectionContentWrapper.jsx';
-import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
+import Testimonial from "./components/testimonial/Testimonial.jsx";
+import Britnie from "./assets/britnie.jpg"
 
 function App() {
 
@@ -37,6 +38,43 @@ function App() {
 						<h2>Voor wie?</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
 							nostrum omnis quae, quam quis rem ut.</p>
+
+						<section className={"testimonial-section"}>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
+
+
+
+
+						</section>
 					</SectionContentWrapper>
 				</section>
 				<section className="talentpool-section">
