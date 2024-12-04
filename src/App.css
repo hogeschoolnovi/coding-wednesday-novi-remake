@@ -26,3 +26,9 @@
 .talentpool-section {
     background-color: var(--color-secondary);
 }
+
+/* --------------- Footer ------------------------- */
+.footer-section {
+    background-color: var(--color-text);
+    color: white;
+}
