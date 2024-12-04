@@ -1,0 +1,14 @@
+.error-message {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 300px;
+    border: 2px solid red;
+    width:250px;
+    padding: 10px;
+}
+
+.items {
+    margin-bottom: 12px;
+
+}
