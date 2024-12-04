@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap');
+
+/* ------------------------------- 1. Global Styles -------------------------------- */
+
+:root {
+  --color-primary: #1E47BB;
+  --color-secondary: #F5BDBB;
+  --color-tertiary: #FCEBDB;
+  --color-tertiary-dark: #FCEBDB;
+  --color-accent: #FF5555;
+
+  --color-text: #171717;
+  --color-text-light: #6B6B65;
+  --color-background: #FAFAFA;
+  --color-background-light: #FFFFFF;
+
+  --color-danger: #EF6B51;
+  --color-success: #497F56;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+  font-size: 14px; /* 14 PIXELS IS DUS 1REM */
+}
+
+img {
+  width: 100%;
+}
+
+/* ------------------------------- 2. Typography ----------------------------------- */
+
+body {
+  font-family: "Poppins", Helvetica, Arial, sans-serif;
+  color: var(--color-text);
+}
+
+input,
+button {
+  font-family: inherit;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Moret", Arial, sans-serif;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+h2 {
+  font-size: 4rem;
+}
+

@@ -1,0 +1,28 @@
+/* ------------------------------- Areas ---------------------------------------- */
+
+/* --------------- Header ------------------------- */
+.header {
+  background-color: var(--color-tertiary);
+}
+
+.header-content {
+    padding: 20px 0;
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+/* --------------- Courses ------------------------- */
+.courses-section {
+    background-color: var(--color-secondary);
+}
+
+/* --------------- Testimonial Video's ------------------------- */
+.testimonial-section {
+    background-color: var(--color-background-light);
+}
+
+/* --------------- Talent Pool ------------------------- */
+.talentpool-section {
+    background-color: var(--color-secondary);
+}
