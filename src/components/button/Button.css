@@ -1,0 +1,42 @@
+.button1 {
+    font-size: 16px;
+    background: #171717;
+    border: 3px solid #171717;
+    color: #FFFFFF;
+    border-radius: 7px;
+    padding: 12px 27px;
+    box-sizing: border-box;
+    width: max-content;
+    min-width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
+
+.button2 {
+    background: #1E47BB;
+    color: #FFFFFF;
+    padding: 15px 12px;
+    border-radius: 7px;
+    font-size: 12px;
+    border: none;
+    cursor: pointer;
+}
+
+.button3 {
+    font-size: 16px;
+    font-weight: 500;
+    background: #FFFFFF;
+    border: none;
+    color: #171717;
+    border-radius: 7px;
+    padding: 7px 27px;
+    box-sizing: border-box;
+    width: max-content;
+    min-width: 150px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    cursor: pointer;
+}
