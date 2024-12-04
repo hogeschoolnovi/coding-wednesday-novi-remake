@@ -8,7 +8,7 @@
   flex-grow: 1;
   row-gap: .7rem;
   border-bottom-left-radius: 0;
-  border-bottom-right-radiusg: 0;
+  border-bottom-right-radius: 0;
   border-bottom: 1px solid;
 
   & img {
@@ -19,8 +19,21 @@
 
   .image-container {
     position: relative;
+    height: 10rem;
+    background-image: url("../../assets/britnie.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-radius: 1rem;
 
-    &::before {
+    & .button-box {
+      position: relative;
+      border: 2px solid;
+
+
       content: '';
       background: #FF5555;
       border-radius: 20px;
@@ -34,18 +47,25 @@
       z-index: 3;
     }
 
-    /*&::after {*/
-    /*  content: '';*/
-    /*  width: 0;*/
-    /*  height: 0;*/
-    /*  transform: translateX(6px);*/
-    /*  border-width: 10px 10px 10px 15px;*/
-    /*  border-style: solid;*/
-    /*  border-color: transparent transparent transparent white;*/
-    /*  left: 50%;*/
-    /*  transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);*/
-    /*  z-index: 4;*/
-    /*}*/
+    &::after {
+      content: '';
+      width: 0;
+      height: 0;
+      border-width: 10px 10px 10px 15px;
+      border-style: solid;
+      border-color: transparent transparent transparent white;
+      margin-top: 1.5rem;
+      margin-left: .5rem;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 4;
+      position: absolute;
+
+    }
+  }
+
+    &::before {
+
   }
 
   .link-box {
