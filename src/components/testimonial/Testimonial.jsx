@@ -1,10 +1,13 @@
-import "./.css"
+import "./Testimonial.css"
 
-function Testimonial () {
+function Testimonial({img, title, text, linkText}) {
   return (
-    <Card className={}>
-
-    </Card>
+    <article className="testimonial-card">
+      <img src={img} alt=""/>
+      <h3>{title}</h3>
+      <p>{text}</p>
+      <a href="#">{linkText}</a>
+    </article>
   )
 }
 

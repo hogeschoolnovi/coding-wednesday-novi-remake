@@ -20,6 +20,8 @@
 /* --------------- Testimonial Video's ------------------------- */
 .testimonial-section {
     background-color: var(--color-background-light);
+    display: flex;
+    padding: 1rem
 }
 
 /* --------------- Talent Pool ------------------------- */
