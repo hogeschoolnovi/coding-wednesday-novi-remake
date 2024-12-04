@@ -1,5 +1,6 @@
 import React from 'react';
 import './InformationCard.css';
+import {ArrowRight} from "@phosphor-icons/react";
 
 const InformationCard = ({infoCardTitle, infoCardContent, experienceNeeded, onClick}) => {
     return (
@@ -10,9 +11,9 @@ const InformationCard = ({infoCardTitle, infoCardContent, experienceNeeded, onCl
             <button
                 type="button"
                 onClick={onClick}
-                className="arrowButton"
+                className="arrow-button"
             >
-                ➔
+                <ArrowRight size={20} />
             </button>
         </div>
     );

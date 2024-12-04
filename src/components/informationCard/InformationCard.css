@@ -4,6 +4,7 @@
     border-radius: 20px;
     border: none;
     padding: 30px;
+    position: relative;
 }
 
 .info-card-title {
@@ -12,10 +13,20 @@
 }
 
 .info-card-content {
-    /*margin: 0 5px;*/
     line-height: 2.5;
 }
 
 .info-card-experience-tag {
+    line-height: 2.5;
+}
 
+.arrow-button {
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+    padding: 15px;
+    margin: 2px;
+    border-radius: 20px;
+    border: none;
+    background-color: var(--color-tertiary-dark);
 }
