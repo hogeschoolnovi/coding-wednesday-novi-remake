@@ -2,12 +2,12 @@ import React from 'react';
 import List from "../list/List.jsx";
 import InputField from "../inputField/InputField.jsx";
 import ResourceLinks from "../resourceLinks/ResourceLinks.jsx";
-
+import "./Footer.css";
 const Footer = () => {
     return (
         <div>
             <img src="https://www.novi.nl/hubfs/Website/NOVI%20logo%20wit.svg" alt="Logo of NOVI Hogeschool"/>
-            <div>
+            <section className="footer-container">
                 <List title="Over NOVI">
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="Opeidingen" />
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="Studeren Bij" />
@@ -25,8 +25,8 @@ const Footer = () => {
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="Business" />
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="Financiering"/>
                 </List>
-            </div>
-            <div>
+            </section>
+            <section className="footer-container">
                 <List title="Contact">
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="contact@novi.nl" />
                     <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} name="030-3073200" />
@@ -43,7 +43,7 @@ const Footer = () => {
                         <button type="submit">Aanmelden nieuwsbrief</button>
                     </form>
                 </List>
-            </div>
+            </section>
             <div>
                 <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} />
                 <ResourceLinks url="https://www.test.nl" target="_blank" icon_only={false} />
