@@ -54,6 +54,9 @@ function App() {
 					</SectionContentWrapper>
 				</section>
 			</main>
+			<footer className="footer-section">
+
+			</footer>
 		</>
 	)
 }
