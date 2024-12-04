@@ -3,9 +3,9 @@ import './ItemLabel.css'
 
 const ItemLabel = ({title, text}) => {
     return (
-        <article className="article">
-                <h2 className="h2">{title}</h2>
-                <p className="p">{text}</p>
+        <article className="item-label-container">
+                <h2 className="item-label-title">{title}</h2>
+                <p className="item-label-text">{text}</p>
             </article>
            );
 };

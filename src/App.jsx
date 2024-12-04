@@ -2,7 +2,7 @@ import './App.css'
 import SectionContentWrapper from './components/sectionContentWrapper/SectionContentWrapper.jsx';
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
-import ItemLabel from "./components/itemlabal/ItemLabel.jsx";
+import ItemLabel from "./components/itemlabel/ItemLabel.jsx";
 
 function App() {
 
@@ -15,23 +15,23 @@ function App() {
                 </div>
 
                 <SectionContentWrapper>
-                    <div className='item-label-container'>
+                    <div className="item-label-container">
 
                         <ItemLabel
-                            title='3000+'
-                            text='Actieve studenten'
+                            title="3000+"
+                            text="Actieve studenten"
                         />
                         <ItemLabel
-                            title='6mnd'
-                            text='gem. vrijstelling'
+                            title="6mnd"
+                            text="gem. vrijstelling"
                         />
                         <ItemLabel
-                            title='9,03'
-                            text='rapportcijfer voor support'
+                            title="9,03"
+                            text="rapportcijfer voor support"
                         />
                         <ItemLabel
-                            title='50%'
-                            text='studenten geen IT-ervaring'
+                            title="50%"
+                            text="studenten geen IT-ervaring"
                         />
                     </div>
                 </SectionContentWrapper>

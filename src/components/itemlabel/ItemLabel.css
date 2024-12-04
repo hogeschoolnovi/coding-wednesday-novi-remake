@@ -1,16 +1,16 @@
-.article{
-    display:flex;
+.item-label-container {
+    display: flex;
     flex-direction: column;
 }
 
-.h2 {
+.item-label-title {
     text-align: center;
     font-size: 4rem;
     display: flex;
     justify-content: center;
 }
 
-.p {
+.item-label-text {
     text-align: center;
     font-size: 1rem;
     display: flex;
