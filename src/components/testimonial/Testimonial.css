@@ -2,7 +2,6 @@
   display: flex;
   flex-direction: column;
   border-radius: .3rem;
-  border: 2px solid;
   flex-basis: 20rem;
   padding: 1rem;
   max-width: 20rem;
@@ -12,28 +11,36 @@
   & img {
     position: relative;
     width: 100%;
+    border-radius: 1rem;
   }
 
-  & img::before {
-    content: '';
-    background: #FF5555;
-    border-radius: 20px;
-    transform: matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
-    position: absolute;
-    width: 45px;
-    height: 45px;
-  }
-   & img ::after {
-     content: '';
-     width: 0;
-     height: 0;
-     transform: translateX(6px);
-     border-width: 10px 10px 10px 15px;
-     border-style: solid;
-     border-color: transparent transparent transparent white;
-     z-index: 1;
-   }
+  .image-container {
+    position: relative;
 
+    /*&::before {*/
+    /*  content: '';*/
+    /*  background: #FF5555;*/
+    /*  border-radius: 20px;*/
+    /*  position: absolute;*/
+    /*  width: 45px;*/
+    /*  height: 45px;*/
+    /*  !* Centering the pseudo-element *!*/
+    /*  top: 50%;*/
+    /*  left: 50%;*/
+    /*  transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);*/
+    /*}*/
+
+    /*&::after {*/
+    /*  content: '';*/
+    /*  width: 0;*/
+    /*  height: 0;*/
+    /*  transform: translateX(6px);*/
+    /*  border-width: 10px 10px 10px 15px;*/
+    /*  border-style: solid;*/
+    /*  border-color: transparent transparent transparent white;*/
+    /*  z-index: 1;*/
+    /*}*/
+  }
 
   .link-box {
     display: flex;
