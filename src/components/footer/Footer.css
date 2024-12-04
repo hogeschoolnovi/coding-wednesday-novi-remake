@@ -2,9 +2,9 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    color: #495057;
-    font-size: 14px;
+    color: #ffffff;
+    font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    border-top: 1px solid #e9ecef;
+    border-bottom: 1px solid #e9ecef;
 }
