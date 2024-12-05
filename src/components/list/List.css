@@ -1,3 +1,10 @@
 .footer-list {
     width: 50%;
 }
+
+.list-horizontal{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
