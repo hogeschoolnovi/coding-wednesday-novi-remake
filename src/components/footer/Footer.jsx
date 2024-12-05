@@ -1,6 +1,5 @@
 import React from 'react';
 import List from "../list/List.jsx";
-import InputField from "../inputField/InputField.jsx";
 import ResourceLinks from "../resourceLinks/ResourceLinks.jsx";
 import "./Footer.css";
 
@@ -47,8 +46,8 @@ const Footer = () => {
 
                     >
                         <form className="footer-form-container">
-                            <InputField type="text" placeholder="Voornaam" name="firstName" />
-                            <InputField type="text" placeholder="E-mailadres" name="email" />
+                            <input type="text" placeholder="Voornaam" name="firstName" />
+                            <input type="text" placeholder="E-mailadres" name="email" />
                             <button type="submit">Aanmelden nieuwsbrief</button>
                         </form>
                     </List>
