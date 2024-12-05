@@ -2,31 +2,39 @@
     display: flex;
     justify-content: space-between;
     padding: 20px 0;
-    color: #ffffff;
+    color: var(--color-tertiary);
     font-size: 16px;
     font-weight: 400;
     line-height: 1.5;
-    border-bottom: 1px solid #e9ecef;
-    margin: 0 auto 100px auto;
-    width: 30%;
+    border-bottom: 1px solid var(--color-tertiary-dark);
+    flex-basis: 30%;
+    gap: 5px;
+}
+.footer-sub-left {
+    flex-grow: 1;
+    flex-shrink: 1;
 }
 
-.footer-logo{
-    max-width: 100px;
-    margin: 30px 30px;
-
+.footer-logo {
+    width: 100px;
+    margin: 30px 0;
 }
 
 .footer-main-container {
     display: flex;
-    justify-content: center;
-    padding: 20px 20px;
-
+    justify-content: space-between;
+    gap: 50px;
 }
 
-.footer-icon-container {
+.footer-flex-container {
     display: flex;
     align-items: center;
+    padding: 5px;
+}
+
+.footer-list-socials {
+    display: flex;
+    gap: 10px;
 }
 
 .footer-form-container {
