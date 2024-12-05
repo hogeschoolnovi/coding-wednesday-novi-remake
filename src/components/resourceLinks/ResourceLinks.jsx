@@ -1,14 +1,14 @@
+// Update ResourceLinks.jsx
 import React from 'react';
-import "./ResourceLinks.css"
-const ResourceLinks = ({icon, icon_alt, target, url, icon_only, name, classname}) => {
+import "./ResourceLinks.css";
+
+const ResourceLinks = ({icon, target, url, isOnlyIcon, label, className}) => {
     return (
-            <a className="resource-link" href={url} target={target}>
-            {icon_only && icon &&
-                <img className={classname} src={icon} alt={icon_alt}/>
-            }
-            {!icon_only &&
-                name}
-            </a>
+        <a className="resource-link" href={url} target={target}>
+            {isOnlyIcon && icon}
+            {!!isOnlyIcon && label}
+            {!isOnlyIcon && label}
+        </a>
     );
 }
 
