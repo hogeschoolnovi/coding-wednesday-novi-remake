@@ -2,7 +2,6 @@ import React from 'react';
 import "./ResourceLinks.css"
 const ResourceLinks = ({icon, icon_alt, target, url, icon_only, name, classname}) => {
     return (
-        <div>
             <a className="resource-link" href={url} target={target}>
             {icon_only && icon &&
                 <img className={classname} src={icon} alt={icon_alt}/>
@@ -10,8 +9,6 @@ const ResourceLinks = ({icon, icon_alt, target, url, icon_only, name, classname}
             {!icon_only &&
                 name}
             </a>
-
-        </div>
     );
 }
 

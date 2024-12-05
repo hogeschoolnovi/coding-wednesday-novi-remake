@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "./List.css";
 const List = ({title, children, classname}  ) => {
     return (
         <div className={classname}>
