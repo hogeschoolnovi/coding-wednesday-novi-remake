@@ -4,11 +4,11 @@ import "./List.css";
 import ResourceLinks from '../resourceLinks/ResourceLinks';
 
 const List = ({title, links, variant, children, isHorizontal}) => {
-    let className = variant === 'dark' ? 'list-dark' : 'list-light';
+    let className = variant === 'light' ? 'list-light' : 'list-dark';
     className += isHorizontal ? ' list-horizontal' : ' list-vertical';
     return (
-        <div className={className}>
-            <h3>{title}</h3>
+        <div className={className} >
+            <h3 className={className}>{title}</h3>
             {links && links.map((link, index) => (
                 <ResourceLinks
                     key={index}
@@ -18,7 +18,7 @@ const List = ({title, links, variant, children, isHorizontal}) => {
                     iconAlt={link.iconAlt}
                     target={link.isIconOnly ? "_blank" : "_self"}
                     isOnlyIcon={!!link.icon}
-                    className={link.className}
+                    className={className }
                 />
             ))}
             {children}

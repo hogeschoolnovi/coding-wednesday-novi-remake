@@ -4,6 +4,7 @@ import ResourceLinks from "../resourceLinks/ResourceLinks.jsx";
 import "./Footer.css";
 import SectionContentWrapper from "../sectionContentWrapper/SectionContentWrapper.jsx";
 import {
+    Acorn,
     Confetti,
     FacebookLogo,
     InstagramLogo,
@@ -51,7 +52,7 @@ const Footer = () => {
             url: "https://www.test.nl",
             label: "Newtonlaan 247, Utrecht",
             isIconOnly: false,
-            icon: <MapPinLine size={24} weight="fill" />
+            icon: <Acorn size={24} weight="fill" />
         }
     ];
     const socialLinks = [{
