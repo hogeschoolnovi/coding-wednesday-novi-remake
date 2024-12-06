@@ -4,12 +4,12 @@ import ResourceLinks from "../resourceLinks/ResourceLinks.jsx";
 import "./Footer.css";
 import SectionContentWrapper from "../sectionContentWrapper/SectionContentWrapper.jsx";
 import {
-    Envelope,
+    Confetti,
     FacebookLogo,
     InstagramLogo,
     LinkedinLogo,
     MapPinLine,
-    PhoneCall,
+    Phone,
     TwitterLogo
 } from "@phosphor-icons/react";
 
@@ -39,43 +39,43 @@ const Footer = () => {
             url: "https://www.test.nl",
             label: "contact@novi.nl",
             isIconOnly: false,
-            icon: <Envelope size={32} weight="duotone"/>
+            icon: <Confetti size={24} weight="fill" />
         },
         {
             url: "https://www.test.nl",
             label: "030-3073200",
             isIconOnly: false,
-            icon: <PhoneCall size={32} weight="duotone"/>
+            icon: <Phone size={24} weight="fill" />
         },
         {
             url: "https://www.test.nl",
             label: "Newtonlaan 247, Utrecht",
             isIconOnly: false,
-            icon: <MapPinLine size={32} weight="duotone"/>
+            icon: <MapPinLine size={24} weight="fill" />
         }
     ];
     const socialLinks = [{
         url: "https://www.test.nl",
         isIconOnly: true,
-        icon: <FacebookLogo size={32} weight="duotone"/>,
+        icon: <FacebookLogo size={24} weight="fill" />,
         iconAlt: "Facebook logo"
     },
         {
             url: "https://www.test.nl",
             isIconOnly: true,
-            icon: <InstagramLogo size={32} weight="duotone"/>,
+            icon: <InstagramLogo size={24} weight="fill" />,
             iconAlt: "Instagram logo"
         },
         {
             url: "https://www.test.nl",
             isIconOnly: true,
-            icon: <LinkedinLogo size={32} weight="duotone"/>,
+            icon: <LinkedinLogo size={24} weight="fill" />,
             iconAlt: "LinkedIn logo"
         },
         {
             url: "https://www.test.nl",
             isIconOnly: true,
-            icon: <TwitterLogo size={32} weight="duotone"/>,
+            icon: <TwitterLogo size={24} weight="fill" />,
             iconAlt: "Twitter logo"
         }
     ];
