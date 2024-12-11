@@ -26,52 +26,10 @@
     align-items: center;
     text-align: center;
     border-radius: 1rem;
-
-    & .button-box {
-      position: relative;
-      border: 2px solid;
-
-
-      content: '';
-      background: #FF5555;
-      border-radius: 20px;
-      position: absolute;
-      width: 45px;
-      height: 45px;
-      /* Centering the pseudo-element */
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%) matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
-      z-index: 3;
-    }
-
-    &::after {
-      content: '';
-      width: 0;
-      height: 0;
-      border-width: 10px 10px 10px 15px;
-      border-style: solid;
-      border-color: transparent transparent transparent white;
-      margin-top: 1.5rem;
-      margin-left: .5rem;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 4;
-      position: absolute;
-
-    }
   }
-
-    &::before {
-
-  }
-
   .link-box {
     display: flex;
     margin-left: 2rem;
-
-
-
 
     & span {
       width: 1rem;
@@ -88,32 +46,4 @@
     font-weight: 500;
     padding: 0 .2rem;
   }
-
-  & a::before {
-    content: '';
-    background: #FF5555;
-    border-radius: 8px;
-    transform: matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
-    position: absolute;
-    width: 20px;
-    height: 20px;
-    left: -2rem;
-  }
-
-  & a::after {
-    content: '';
-    margin-top: .4rem;
-    width: 0;
-    height: 0;
-    transform: translateX(5px);
-    border-width: 4px 4px 4px 8px;
-    border-style: solid;
-    border-color: transparent transparent transparent white;
-    z-index: 1;
-    position: absolute;
-    left: -1.9rem;
-
-  }
-
-
 }

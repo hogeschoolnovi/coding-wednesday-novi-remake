@@ -1,4 +1,5 @@
 import "./Testimonial.css"
+import PlayButton from "../playbutton/PlayButton.jsx";
 
 function Testimonial({img, title, text, linkText}) {
   return (
@@ -6,11 +7,13 @@ function Testimonial({img, title, text, linkText}) {
       <a href="#">
         <div className="image-container">
           <img src={img} alt=""/>
+          <PlayButton/>
         </div>
       </a>
       <h3>{title}</h3>
       <p>{text}</p>
       <div className="link-box">
+
         <a href="#">{linkText}</a>
         <span>
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
