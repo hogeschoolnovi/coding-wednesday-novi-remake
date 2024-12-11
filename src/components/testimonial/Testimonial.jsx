@@ -3,11 +3,11 @@ import "./Testimonial.css"
 function Testimonial({img, title, text, linkText}) {
   return (
     <article className="testimonial-card">
-      <div className="image-container">
-        <a
-          href="https://player.vimeo.com/video/625385510?h=154adc4aed&app_id=122963&autoplay=1">
-        </a>
-      </div>
+      <a href="#">
+        <div className="image-container">
+          <img src={img} alt=""/>
+        </div>
+      </a>
       <h3>{title}</h3>
       <p>{text}</p>
       <div className="link-box">

@@ -1,10 +1,9 @@
 .testimonial-card {
   display: flex;
   flex-direction: column;
-  border-radius: .3rem;
-  flex-basis: 20rem;
+  flex-basis: 25rem;
+  min-height: 25rem;
   padding: 1rem;
-  max-width: 20rem;
   flex-grow: 1;
   row-gap: .7rem;
   border-bottom-left-radius: 0;
@@ -13,14 +12,13 @@
 
   & img {
     position: relative;
-    width: 100%;
+    height: 100%;
     border-radius: 1rem;
   }
 
   .image-container {
     position: relative;
-    height: 10rem;
-    background-image: url("../../assets/britnie.jpg");
+    height: 14rem;
     background-repeat: no-repeat;
     background-size: cover;
     display: flex;

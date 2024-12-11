@@ -70,6 +70,12 @@ function App() {
 								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
 								linkText={"Bekijk Sarah's verhaal"}
 							/>
+							<Testimonial
+								img={Britnie}
+								title={"Sarah"}
+								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								linkText={"Bekijk Sarah's verhaal"}
+							/>
 
 
 
