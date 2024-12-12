@@ -35,11 +35,12 @@ function App() {
 				</section>
 				<section className="testimonial-section">
 					<SectionContentWrapper>
-						<h1>Voor wie?</h1>
-						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
-							nostrum omnis quae, quam quis rem ut.</p>
+						<div className="title-box">
+							<h1>Voor wie?</h1>
+							<p>Deze mensen kozen voor een opleiding bij NOVI.</p>
+						</div>
 
-						<section className={"testimonial-section"}>
+						<div className={"testimonial-cards"}>
 							<Testimonial
 								img={Britnie}
 								title={"Sarah"}
@@ -80,7 +81,7 @@ function App() {
 
 
 
-						</section>
+						</div>
 					</SectionContentWrapper>
 				</section>
 				<section className="talentpool-section">

@@ -26,14 +26,23 @@
     display: flex;
     column-gap: 1rem;
     border-bottom: 1px solid;
-    padding: .7rem 0;
+    padding: 1rem 0;
     cursor: pointer;
+
+    & p {
+      font-weight: 500;
+    }
 
 
     & span {
-      width: 1rem;
+      width: 1.2rem;
       display: flex;
       align-items: center;
+
+      & img {
+        width: 100%; /* Scale to fit the span */
+        height: auto; /* Maintain aspect ratio */
+      }
     }
   }
 
