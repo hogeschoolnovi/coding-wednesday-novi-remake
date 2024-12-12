@@ -1,7 +1,6 @@
 import "./Testimonial.css"
 import PlayButton from "../playbutton/PlayButton.jsx";
-import arrow from '../../assets/icons/arrow-right.svg'
-
+import { ArrowRight } from "@phosphor-icons/react"
 function Testimonial({img, title, text, linkText, altText}) {
   return (<article className="testimonial-card">
     <a href="#">
@@ -20,7 +19,7 @@ function Testimonial({img, title, text, linkText, altText}) {
       />
       <p>{linkText}</p>
       <span>
-          <img src={arrow} alt={altText}/>
+        <ArrowRight size={36} height={20} weight="bold" />
       </span>
     </div>
   </article>)

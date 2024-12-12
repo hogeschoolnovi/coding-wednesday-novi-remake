@@ -38,11 +38,6 @@
       width: 1.2rem;
       display: flex;
       align-items: center;
-
-      & img {
-        width: 100%; /* Scale to fit the span */
-        height: auto; /* Maintain aspect ratio */
-      }
     }
   }
 
