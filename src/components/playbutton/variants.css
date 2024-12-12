@@ -51,7 +51,7 @@
       width: 0;
       height: 0;
       transform: translate(calc(7rem / 14), calc(7rem / 14));
-      border-width: calc(5rem / 14) calc(5rem / 14) calc(5rem / 14) calc(9rem / 14);
+      border-width: calc(4rem / 14) calc(4rem / 14) calc(4rem / 14) calc(8rem / 14);
       border-style: solid;
       border-color: transparent transparent transparent white;
       z-index: 1;
