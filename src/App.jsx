@@ -35,7 +35,7 @@ function App() {
 				</section>
 				<section className="testimonial-section">
 					<SectionContentWrapper>
-						<h2>Voor wie?</h2>
+						<h1>Voor wie?</h1>
 						<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
 							nostrum omnis quae, quam quis rem ut.</p>
 
@@ -43,13 +43,13 @@ function App() {
 							<Testimonial
 								img={Britnie}
 								title={"Sarah"}
-								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								text={'Sarah heeft de bootcamp Full Stack Developer afgerond en kijkt terug op een fantastische tijd.'}
 								linkText={"Bekijk Sarah's verhaal"}
 							/>
 							<Testimonial
 								img={Britnie}
 								title={"Sarah"}
-								text={"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Optio, soluta."}
+								text={'Job is tijdens de bootcamp Ethical Hacker al in contact gekomen met het bedrijf waar hij vervolgens in dienst is getreden.'}
 								linkText={"Bekijk Sarah's verhaal"}
 							/>
 							<Testimonial

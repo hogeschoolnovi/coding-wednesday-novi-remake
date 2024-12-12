@@ -12,8 +12,8 @@ function Testimonial({img, title, text, linkText}) {
           />
         </div>
       </a>
-      <h3>{title}</h3>
-      <p>{text}</p>
+      <p className={'video-card-title'}>{title}</p>
+      <p className={'testimonial-text'}>{text}</p>
       <div className="link-box">
         <PlayButton
           className={'variant-link-box'}
