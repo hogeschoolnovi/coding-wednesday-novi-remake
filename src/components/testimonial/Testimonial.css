@@ -29,8 +29,7 @@
   }
   .link-box {
     display: flex;
-    margin-left: 2rem;
-    padding: 1rem 2rem;
+    column-gap: 1rem;
 
     & span {
       width: 1rem;
