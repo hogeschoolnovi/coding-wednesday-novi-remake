@@ -7,13 +7,17 @@ function Testimonial({img, title, text, linkText}) {
       <a href="#">
         <div className="image-container">
           <img src={img} alt=""/>
-          <PlayButton/>
+          <PlayButton
+            className={'variant-img-container'}
+          />
         </div>
       </a>
       <h3>{title}</h3>
       <p>{text}</p>
       <div className="link-box">
-
+        <PlayButton
+          className={'variant-link-box'}
+        />
         <a href="#">{linkText}</a>
         <span>
         <svg version="1.0" xmlns="http://www.w3.org/2000/svg"

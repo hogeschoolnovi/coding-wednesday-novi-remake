@@ -30,6 +30,7 @@
   .link-box {
     display: flex;
     margin-left: 2rem;
+    padding: 1rem 2rem;
 
     & span {
       width: 1rem;
@@ -45,5 +46,6 @@
     text-decoration: none;
     font-weight: 500;
     padding: 0 .2rem;
+    line-height: 2rem;
   }
 }
