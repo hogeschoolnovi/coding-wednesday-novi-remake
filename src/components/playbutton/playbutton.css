@@ -5,14 +5,14 @@
   align-items: center;
 
   &::before {
-    background: #FF5555;
-    border-radius: 20px;
+    background: var(--color-accent);
+    border-radius: calc(20rem / 14);
     transform: matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
   }
 
   &::after {
-    transform: translateX(6px);
-    border-width: 10px 10px 10px 15px;
+    transform: translateX(calc(6rem / 14));
+    border-width: calc(10rem / 14) calc(10rem / 14) calc(10rem / 14) calc(15rem / 14);
     border-style: solid;
     border-color: transparent transparent transparent white;
     z-index: 1;

@@ -5,7 +5,7 @@
     &::before {
       position: absolute;
       content: '';
-      background: #FF5555;
+      background: var(--color-accent);
       border-radius: calc(20rem / 14);
       transform: matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
       width: calc(45rem / 14);
@@ -24,7 +24,6 @@
       z-index: 1;
     }
   }
-
 }
 
 .variant-link-box {
@@ -36,7 +35,7 @@
     &::before {
       content: '';
       top: 0;
-      background: #FF5555;
+      background: var(--color-accent);
       border-radius: calc(11rem / 14);
       transform: matrix(0.24, 0.96, -0.98, 0.22, 0, 0);
       position: absolute;
