@@ -3,7 +3,7 @@
   flex-direction: column;
   flex-basis: 25rem;
   min-height: 25rem;
-  padding: 1rem;
+  padding: calc(20rem / 14);
   flex-grow: 1;
   row-gap: .7rem;
   border-bottom-left-radius: 0;
