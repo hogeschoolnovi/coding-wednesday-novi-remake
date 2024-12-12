@@ -19,6 +19,7 @@
 
 /* --------------- Testimonial Video's ------------------------- */
 .testimonial-section {
+  padding-bottom: 8rem;
   & .testimonial-cards {
     background-color: var(--color-background-light);
     display: flex;
