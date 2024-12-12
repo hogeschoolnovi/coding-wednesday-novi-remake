@@ -40,9 +40,8 @@
 
   & h1 + p {
     font-size: 1.2rem;
+    padding-top: 1.8rem;
   }
-
-
 }
 
 /* --------------- Talent Pool ------------------------- */
@@ -54,4 +53,9 @@
 .footer-section {
   background-color: var(--color-text);
   color: white;
+}
+
+/* --------------- Vimeo video ------------------------- */
+.ReactModal__Overlay {
+  z-index: 4;
 }

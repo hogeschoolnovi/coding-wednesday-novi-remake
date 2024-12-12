@@ -2,15 +2,11 @@ import "./Testimonial.css"
 import PlayButton from "../playbutton/PlayButton.jsx";
 import {ArrowRight} from "@phosphor-icons/react"
 
-function Testimonial({img, title, text, altText}) {
-
-  const [isOpen, setIsOpen] = useState(false);
-
-  const openModal = () => setIsOpen(true);
-  const closeModal = () => setIsOpen(false);
+function Testimonial({img, title, text, altText, onclick, url}) {
+  console.log(url)
   return (
     <article className="testimonial-card">
-      <div className="image-container">
+      <div onClick={() => onclick(url)} className="image-container">
         <img src={img} alt={altText}/>
         <PlayButton
           className={'variant-img-container'}
@@ -18,7 +14,7 @@ function Testimonial({img, title, text, altText}) {
       </div>
       <p className={'video-card-title'}>{title}</p>
       <p className={'testimonial-text'}>{text}</p>
-      <div className="link-box">
+      <div onClick={() => onclick(url)} className="link-box">
         <PlayButton
           className={'variant-link-box'}
         />
