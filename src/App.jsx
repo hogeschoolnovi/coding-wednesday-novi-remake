@@ -18,29 +18,28 @@ function App() {
                 <section className="courses-section">
                     <SectionContentWrapper>
                         <h2>Onze hbo ICT-opleidingen</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
-                            nostrum omnis quae, quam quis rem ut.</p>
+                        <p>Tussen onze brede deeltijdopleidingen zit altijd wel een traject dat aansluit op jouw droombaan.</p>
 
-                        <div className="info-card-wrapper">
+                        <div className="info-cards-container">
                             <InformationCard
-                                infoCardTitle="Titel"
+                                infoCardTitle="Bedrijfskundige informatica"
                                 infoCardContent="Wil je leren hoe een netwerk in elkaar zit – én hoe je netwerkt? Met deze allround-ICT-opleiding rol je zo het bedrijfsleven in."
                                 experienceNeeded={true}
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan peer banaan banaan banaan en andere tekst"
+                                infoCardTitle="Software development"
+                                infoCardContent="Wil je leren hoe een netwerk in elkaar zit – én hoe je netwerkt? Met deze allround-ICT-opleiding rol je zo het bedrijfsleven in."
                                 experienceNeeded={false}
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
+                                infoCardTitle="Cyber security"
+                                infoCardContent="Deze studierichting is misschien wel het meest dynamische vakgebied in de ICT. Hoe bescherm je een organisatie tegen cybercriminelen?"
                                 experienceNeeded={true}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
+                                infoCardTitle="Geo Business Intelligence"
+                                infoCardContent="Locatiedata zijn tegenwoordig big business. Met deze studierichting breng je de wereld om je heen letterlijk in kaart."
                                 experienceNeeded={true}
                                 onClick="hier-link-naar-pagina"
                             />
@@ -50,7 +49,7 @@ function App() {
                         <h2>ICT-Bootcamps</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
                             nostrum omnis quae, quam quis rem ut.</p>
-                        <div className="info-card-wrapper">
+                        <div className="info-cards-container">
                             <InformationCard
                                 infoCardTitle="Titel"
                                 infoCardContent="Banaan banaan banaan kumquat banaan joepie"
@@ -87,7 +86,7 @@ function App() {
                         <h2>ICT-Cursussen</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
                             nostrum omnis quae, quam quis rem ut.</p>
-                        <div className="info-card-wrapper">
+                        <div className="info-cards-container">
                             <InformationCard
                                 infoCardTitle="Titel"
                                 infoCardContent="Banaan banaan banaan kumquat banaan joepie"
