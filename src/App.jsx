@@ -51,33 +51,33 @@ function App() {
                             nostrum omnis quae, quam quis rem ut.</p>
                         <div className="info-cards-container">
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
+                                infoCardTitle="Ethical Hacker"
+                                infoCardContent="Een Ethical Hacker adviseert organisaties over de zwakke plekken in hun netwerk – en is sinds de invoering van de AVG dus goud waard."
                                 experienceNeeded={true}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
+                                infoCardTitle="Full Stack Developer"
+                                infoCardContent="Een Full Stack Developer is een allrounder en multitasker die met gemak een hele app ontwikkelt. Van design tot database."
                                 experienceNeeded={true}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Web Developer"
+                                infoCardContent="Een frontend developer of webdeveloper is de poortwachter van de digitale wereld. Ze bepalen wie op welke manier gebruik kan maken van digitale informatie en diensten."
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Security Officer"
+                                infoCardContent="Een security officer kijkt naar data, processen en software vanuit een security oogpunt: hoe kan er misbruik gemaakt worden van een organisatie?"
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Data Engineer"
+                                infoCardContent="Een data engineer of data-analist houdt zich bezig met het destilleren van waardevolle conclusies uit grote datasets."
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                         </div>
@@ -88,27 +88,27 @@ function App() {
                             nostrum omnis quae, quam quis rem ut.</p>
                         <div className="info-cards-container">
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="HTML & CSS"
+                                infoCardContent="Heb je altijd al je eigen website willen maken, maar weet je niet waar je moet beginnen?"
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Introductie Hacking"
+                                infoCardContent="Ben jij benieuwd hoe je inbreekt in een computersysteem en feilloos kwetsbaarheden herkent?"
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Prototyping met Figma"
+                                infoCardContent="In 5 praktijkdagen ga je een design system ontwikkelen en ga je het ontwerp gebruiken om een eigen web pagina vorm te geven a.d.h.v. de laatste design trends."
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                             <InformationCard
-                                infoCardTitle="Titel"
-                                infoCardContent="Banaan banaan banaan kumquat banaan joepie"
-                                experienceNeeded={true}
+                                infoCardTitle="Bouw je eigen ChatGPT-app"
+                                infoCardContent="In deze 5-weekse cursus leer je stap voor stap hoe je jouw eigen GPT-webapp kunt bouwen en aanpassen, ongeacht je technische achtergrond."
+                                experienceNeeded={false}
                                 onClick="hier-link-naar-pagina"
                             />
                         </div>
