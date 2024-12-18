@@ -3,6 +3,7 @@ import SectionContentWrapper from './components/sectionContentWrapper/SectionCon
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
 import InformationCard from "./components/informationCard/InformationCard.jsx";
+import ItemLabel from "./components/itemlabel/ItemLabel.jsx";
 
 function App() {
 
@@ -13,6 +14,28 @@ function App() {
                     <Navbar/>
                     <h1>Dé hogeschool voor ICT</h1>
                 </div>
+
+                <SectionContentWrapper>
+                    <div className="item-label-container">
+
+                        <ItemLabel
+                            title="3000+"
+                            text="Actieve studenten"
+                        />
+                        <ItemLabel
+                            title="6mnd"
+                            text="gem. vrijstelling"
+                        />
+                        <ItemLabel
+                            title="9,03"
+                            text="rapportcijfer voor support"
+                        />
+                        <ItemLabel
+                            title="50%"
+                            text="studenten geen IT-ervaring"
+                        />
+                    </div>
+                </SectionContentWrapper>
             </header>
             <main>
                 <section className="courses-section">

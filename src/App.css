@@ -2,7 +2,7 @@
 
 /* --------------- Header ------------------------- */
 .header {
-  background-color: var(--color-tertiary);
+    background-color: var(--color-tertiary);
 }
 
 .header-content {
@@ -17,18 +17,29 @@
     background-color: var(--color-secondary);
 }
 
-/* --------------- Testimonial Video's ------------------------- */
-.testimonial-section {
-    background-color: var(--color-background-light);
-}
+    /* --------------- Testimonial Video's ------------------------- */
 
-/* --------------- Talent Pool ------------------------- */
-.talentpool-section {
-    background-color: var(--color-secondary);
-}
+    .testimonial-section {
+        background-color: var(--color-background-light);
+    }
 
-/* --------------- Footer ------------------------- */
-.footer-section {
-    background-color: var(--color-text);
-    color: white;
-}
+    /* --------------- Talent Pool ------------------------- */
+
+    .talentpool-section {
+        background-color: var(--color-secondary);
+    }
+
+    /* --------------- Footer ------------------------- */
+
+    .footer-section {
+        background-color: var(--color-text);
+        color: white;
+    }
+
+    .item-label-container {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: baseline;
+    }
