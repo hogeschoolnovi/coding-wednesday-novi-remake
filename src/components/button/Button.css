@@ -1,22 +1,19 @@
-.button1 {
+.button-primary {
     font-size: 16px;
-    background: #171717;
-    border: 3px solid #171717;
-    color: #FFFFFF;
+    background: var(--color-text);
+    border: var(--color-text) 3px solid;
+    color: var(--color-background);
     border-radius: 7px;
     padding: 12px 27px;
-    box-sizing: border-box;
-    width: max-content;
     min-width: 150px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     cursor: pointer;
 }
 
-.button2 {
-    background: #1E47BB;
-    color: #FFFFFF;
+.button-secundary {
+    background: var(--color-primary);
+    color: var(--color-background);
     padding: 15px 12px;
     border-radius: 7px;
     font-size: 12px;
@@ -24,19 +21,20 @@
     cursor: pointer;
 }
 
-.button3 {
+.button-tertiary {
     font-size: 16px;
     font-weight: 500;
-    background: #FFFFFF;
+    background: var(--color-background);
     border: none;
-    color: #171717;
+    color: var(--color-text);
     border-radius: 7px;
     padding: 7px 27px;
-    box-sizing: border-box;
-    width: max-content;
     min-width: 150px;
     display: flex;
-    justify-content: flex-start;
     align-items: center;
     cursor: pointer;
+}
+
+button > svg {
+    margin-left: 0.5em;
 }

@@ -17,7 +17,7 @@ function Navbar() {
 			</ul>
 			<div className="navbar-controls">
 				<p>Student login</p>
-				<Button name="button2" label="Inschrijven" onClick={()=> console.log("Je hebt geklikt!")} arrow={false} />
+				<Button variant="button-secundary" label="Inschrijven" onClick={()=> console.log("Je hebt geklikt!")} arrow={false} />
 			</div>
 		</nav>
 	);

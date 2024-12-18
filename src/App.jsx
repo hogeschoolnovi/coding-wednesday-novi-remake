@@ -19,7 +19,7 @@ function App() {
                         <h2>Onze hbo ICT-opleidingen</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
                             nostrum omnis quae, quam quis rem ut.</p>
-                        <Button name="button1"
+                        <Button variant="button-tertiary"
                                 onClick={() => console.log("Je hebt geklikt!")
                                 }
                                 label="Bekijk onze opleidingen"
@@ -27,12 +27,11 @@ function App() {
                         >
                         </Button>
                     </SectionContentWrapper>
-
                     <SectionContentWrapper>
                         <h2>ICT-Bootcamps</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
                             nostrum omnis quae, quam quis rem ut.</p>
-                        <Button name="button1" label="Bekijk bootcamps" onClick={() => console.log("Je hebt geklikt!")
+                        <Button variant="button-primary" label="Bekijk bootcamps" onClick={() => console.log("Je hebt geklikt!")
                         } arrow={false}/>
                     </SectionContentWrapper>
                     <SectionContentWrapper>
@@ -53,9 +52,9 @@ function App() {
                         <h2>NOVI&apos;s Talent Pool</h2>
                         <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
                             nostrum omnis quae, quam quis rem ut.</p>
-                        <Button name="button1" label="Voor studenten" onClick={() => console.log("Je hebt geklikt!")}
+                        <Button variant="button-primary" label="Voor studenten" onClick={() => console.log("Je hebt geklikt!")}
                                 arrow={false}/>
-                        <Button name="button1" label="Voor werkgevers" onClick={() => console.log("Je hebt geklikt!")}
+                        <Button variant="button-primary" label="Voor werkgevers" onClick={() => console.log("Je hebt geklikt!")}
                                 arrow={false}/>
                     </SectionContentWrapper>
                 </section>
@@ -68,7 +67,7 @@ function App() {
                 </section>
             </main>
             <footer className="footer-section">
-                <Button name="button3" label="Aanmelden nieuwsbrief" onClick={() => console.log("Je hebt geklikt!")}
+                <Button variant="button-tertiary" label="Aanmelden nieuwsbrief" onClick={() => console.log("Je hebt geklikt!")}
                         arrow={false}/>
 
             </footer>

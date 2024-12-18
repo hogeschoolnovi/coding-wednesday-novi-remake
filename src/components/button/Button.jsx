@@ -1,16 +1,12 @@
 import './Button.css'
 import {ArrowRight} from "@phosphor-icons/react";
 
-function Button({label, name, onClick, arrow}) {
+function Button({label, variant, onClick, hasArrow}) {
     return (
-        <button type="button"
-                className={name}
-                onClick={onClick}
-        >
+        <button className={variant}
+                onClick={onClick}>
             {label}
-            {arrow === true && <ArrowRight size={25}/>}
-
-
+            {hasArrow === true && <ArrowRight size={25}/>}
         </button>
     )
 }
