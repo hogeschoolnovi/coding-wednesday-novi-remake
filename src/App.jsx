@@ -2,8 +2,8 @@ import './App.css'
 import SectionContentWrapper from './components/sectionContentWrapper/SectionContentWrapper.jsx';
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
-import InformationCard from "./components/informationCard/InformationCard.jsx";
-import ItemLabel from "./components/itemlabel/ItemLabel.jsx";
+import InformationCard from './components/informationCard/InformationCard.jsx';
+import ItemLabel from './components/itemlabel/ItemLabel.jsx';
 
 function App() {
 
