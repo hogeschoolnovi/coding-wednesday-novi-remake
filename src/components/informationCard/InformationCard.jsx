@@ -2,7 +2,7 @@ import React from 'react';
 import './InformationCard.css';
 import {ArrowRight} from "@phosphor-icons/react";
 
-const InformationCard = ({infoCardTitle, infoCardContent, experienceNeeded, onClick}) => {
+const InformationCard = ({infoCardTitle, infoCardContent, experienceNeeded, onClick, ariaLabel}) => {
     return (
         <article className="info-card">
             <h4 className="info-card-title">{infoCardTitle}</h4>
@@ -12,8 +12,9 @@ const InformationCard = ({infoCardTitle, infoCardContent, experienceNeeded, onCl
                 type="button"
                 onClick={onClick}
                 className="arrow-button"
+                aria-label={ariaLabel}
             >
-                <ArrowRight size={20} />
+                <ArrowRight size={20} weight="bold" />
             </button>
         </article>
     );
