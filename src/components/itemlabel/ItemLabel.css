@@ -1,4 +1,4 @@
-.item-label-container {
+.item-label-wrapper {
     display: flex;
     flex-direction: column;
 }
