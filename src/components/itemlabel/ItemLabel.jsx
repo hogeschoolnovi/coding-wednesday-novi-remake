@@ -5,7 +5,7 @@ const ItemLabel = ({title, text}) => {
     return (
         <article className="item-label-container">
                 <h2 className="item-label-title">{title}</h2>
-                <p className="item-label-text">{text}</p>
+                <p className=" item-label-text">{text}</p>
             </article>
            );
 };

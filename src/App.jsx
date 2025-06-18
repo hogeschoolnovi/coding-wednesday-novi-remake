@@ -22,6 +22,10 @@ function App() {
                             text="Actieve studenten"
                         />
                         <ItemLabel
+                            title="3000+"
+                            text="Actieve studenten"
+                        />
+                        <ItemLabel
                             title="6mnd"
                             text="gem. vrijstelling"
                         />
