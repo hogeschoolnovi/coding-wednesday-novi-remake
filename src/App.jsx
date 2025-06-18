@@ -11,7 +11,7 @@ function App() {
             <header className="header">
                 <div className="header-content">
                     <Navbar/>
-                    <h1>Dé hogeschool voor ICT</h1>
+                    <h1>Dé hogeschool voor ICT en Finance</h1>
                 </div>
 
                 <SectionContentWrapper>
