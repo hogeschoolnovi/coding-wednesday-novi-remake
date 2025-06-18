@@ -1,0 +1,11 @@
+.testimonial-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.video-testimonials {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}

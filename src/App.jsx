@@ -3,6 +3,7 @@ import SectionContentWrapper from './components/sectionContentWrapper/SectionCon
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
 import ItemLabel from "./components/itemlabel/ItemLabel.jsx";
+import Testimonials from "./components/testimonials/Testimonials.jsx";
 
 function App() {
 
@@ -60,9 +61,7 @@ function App() {
                 </section>
                 <section className="testimonial-section">
                     <SectionContentWrapper>
-                        <h2>Voor wie?</h2>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aut illum impedit inventore iste
-                            nostrum omnis quae, quam quis rem ut.</p>
+                        <Testimonials/>
                     </SectionContentWrapper>
                 </section>
                 <section className="talentpool-section">
