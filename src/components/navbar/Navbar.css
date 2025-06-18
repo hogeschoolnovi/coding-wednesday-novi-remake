@@ -1,23 +1,25 @@
 .navbar-wrapper {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
     align-items: center;
 }
 
 .navbar-links {
     display: flex;
     list-style: none;
-    flex-basis: 500px;
+    width: 50%;
     justify-content: space-between;
+    gap: 1rem;
+    padding: 0 1rem;
 }
 
 .navbar-controls {
     display: flex;
-    flex-basis: 200px;
-    justify-content: space-between;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 .navbar-logo {
-    flex-basis: 100px;
+    width: 6em;
 }

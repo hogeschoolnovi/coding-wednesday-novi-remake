@@ -3,6 +3,7 @@ import SectionContentWrapper from './components/sectionContentWrapper/SectionCon
 import novilogo from './assets/novi-logo-color-transparent.png';
 import Navbar from './components/navbar/Navbar.jsx';
 import ItemLabel from "./components/itemlabel/ItemLabel.jsx";
+import Header from './components/header/Header.jsx';
 
 function App() {
 
@@ -11,7 +12,7 @@ function App() {
             <header className="header">
                 <div className="header-content">
                     <Navbar/>
-                    <h1>Dé hogeschool voor ICT</h1>
+                    <Header/>
                 </div>
 
                 <SectionContentWrapper>

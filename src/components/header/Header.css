@@ -1,0 +1,35 @@
+.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 4rem 9rem;
+    background-color: var(--color-background-mid);
+    font-size: 1.3rem;
+}
+
+.header-highlight {
+    text-transform: uppercase;
+    background-color: var(--color-tertiary);
+    width: 20rem;
+    text-align: center;
+    padding: 1rem;
+    border-radius: 2rem;
+    font-size: 1.1rem;
+}
+
+.header-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 40%;
+    gap: 3rem;
+    padding: 1rem;
+
+}
+
+.image-wrapper {
+    width: 50%;
+
+    background-color: var(--color-background-mid);
+}
