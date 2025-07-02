@@ -3,33 +3,47 @@
     justify-content: space-between;
     align-items: center;
     width: 100%;
-    padding: 4rem 9rem;
+    padding: 4rem 9.3rem;
     background-color: var(--color-background-mid);
     font-size: 1.3rem;
-}
-
-.header-highlight {
-    text-transform: uppercase;
-    background-color: var(--color-tertiary);
-    width: 20rem;
-    text-align: center;
-    padding: 1rem;
-    border-radius: 2rem;
-    font-size: 1.1rem;
 }
 
 .header-text {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    width: 40%;
+    width: 45%;
     gap: 3rem;
-    padding: 1rem;
+    padding: 1.1rem;
+}
 
+.intro {
+    line-height: 2.5rem;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 1.2rem;
+    padding: 0 1.5rem;
+    position: relative;
+}
+
+.list-item-title {
+    font-weight: 800;
+}
+
+.list-item-title::before {
+    content: url('../../assets/check-circle.svg');
+    width: 10px;
+    position: absolute;
+    left: -0.5rem;
 }
 
 .image-wrapper {
-    width: 50%;
-
+    width: 46%;
     background-color: var(--color-background-mid);
+    margin: 6rem 2.7rem;
 }
