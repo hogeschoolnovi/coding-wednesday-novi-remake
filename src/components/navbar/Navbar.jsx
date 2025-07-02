@@ -12,6 +12,7 @@ function Navbar() {
 				<li>Studeren bij</li>
 				<li>Zakelijk</li>
 				<li>Over NOVI</li>
+				<p>Hier staat een random verandering</p>
 				<li>Contact</li>
 			</ul>
 			<div className="navbar-controls">
